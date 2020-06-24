@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/* 공통 부분
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.7;
+    min-height: 100%;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+/* HEADER
+----------------------------------------*/
+
+.logo {
+  width: 300px;
+  margin-top: 14px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+
+/* home
+-----------------------------------------------------*/
+
+.home-content {
+  text-align: center;
+  margin-top: 7%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 0px 0 42px;
+  text-align: center;
+
+}
+
+.page-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main-page {
+  width: 180px;
+  margin-right: 18px;
+}
+
+
+.main-title {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+article {
+  height: 80%;
+}
+
+.daily-list {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  list-style: none;
+}
+
+
+.daily-list a {
+    color: #432;
+}
+.daily-list a:hover {
+    color: #0bd;
+}
+
+.back a {
+    color: #432;
+}
+.back a:hover {
+    color: #0bd;
+}
+
+/* footer
+----------------------------------------------------*/
+
+footer {
+  position: fixed;
+  width: 100%;
+  background: #432;
+  text-align: center;
+  bottom:0px;
+  padding: 15px 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  .page-title2 {
+    font-size: 2.5rem;
+  }
+
+  /* HEADER */
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+  /* HOME */
+  .home-content {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-transform: uppercase;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .daily-list {
+    list-style: none;
+  }
+  .sub-content {
+    display: block;max-width: 100%; height: auto;
+    }
