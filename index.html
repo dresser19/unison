@@ -25,14 +25,20 @@
       <a href="intro.html"><img class="main-page" img src="images/unison2.jpg" alt="유니즌데이 2집 선물"></a>
       <h2 class="page-title">유니즌데이밴드2집</h2>
       <p>성도님들 건강하시고 힘내세요</P><br>
-        <h4>1.하늘과 땅과 그대와</h4>
-      <audio controls loop>
-          <source src="101.mp3">
-      </audio></br>
-      <h4>2. 힘내</h4>
-      <audio controls loop>
-          <source src="102.mp3">
-      </audio>
+        <audio src="" controls autoplay id="audioPlayer">
+            Sorry, your browser doesn't support html5!
+        </audio>
+        <ul id="playlist">
+            <li class="current-song"><a href="101.mp3">1.Exit the Premises</a></li>
+            <li><a href="102.mp3">2.Severe Tire Damage</a></li>
+            <li><a href="103.mp3">3.Broken Reality</a></li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script src="audioPlayer.js"></script>
+        <script>
+            // loads the audio player
+            audioPlayer();
+        </script>
     </div>
 
 
