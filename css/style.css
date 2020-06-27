@@ -62,14 +62,14 @@ img {
   margin-left: 130px;
   margin-top: 50px;
 }
-
+/*
 #home {
   background-image: linear-gradient(#ffffff, #00ffff);
   background-blend-mode: luminosity;
   background-color: rgba( 255, 255, 255, 0.5 );
   min-height: 100vh;
 }
-
+*/
 
 #playlist{
   list-style: none;
