@@ -64,7 +64,7 @@ img {
 }
 
 #home {
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  background-image: linear-gradient(#ffffff, #00ffff);
   background-blend-mode: luminosity;
   min-height: 100vh;
 }
