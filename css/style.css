@@ -90,13 +90,6 @@ img {
 
 #playlist{
   list-style: none;
-  width: 20%;
-  text-align: left;
-  margin: 0 auto;
-  position: relative;
-  transform: translate(-20);
-
-
 
 }
 #playlist li a{
@@ -104,9 +97,14 @@ img {
   text-decoration: none;
   text-align: left;
 }
-#playlist .current-song a{
-  color:blue;
+
+#playlist li a:hover {
+    color: #0bd;
 }
+#playlist .current-song a{
+  color: #0bd;
+}
+
 
 
 
