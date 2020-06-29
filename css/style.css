@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* 공통 부분
 ------------------------------- */
 html {
@@ -19,54 +18,39 @@ img {
 }
 /* HEADER
 ----------------------------------------*/
-
 .logo {
   width: 150px;
   margin-top: 14px;
 }
-
-
-
-
 .page-header {
   display: flex;
   justify-content: space-between;
 }
-
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 0%;
 }
-
-
 /* home
 -----------------------------------------------------*/
-
 .home-content {
   text-align: center;
   margin-top: 0%;
   margin-bottom: 10%;
 }
-
 .home-content p {
   font-size: 1.125rem;
   margin: 0px 0 42px;
   text-align: center;
-
 }
-
 .page-title {
   font-size: 2rem;
   text-align: center;
 }
-
 .main-page {
   width: 600px;
   margin-right: 0px;
 }
-
-
 .main-title {
   margin-left: 130px;
   margin-top: 50px;
@@ -87,10 +71,13 @@ img {
   min-height: 100vh;
 }
 */
-
 #playlist{
   list-style: none;
-
+  width: 20%;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+  transform: translate(-20);
 }
 #playlist li a{
   color: black;
@@ -104,47 +91,35 @@ img {
 #playlist .current-song a{
   color: #0bd;
 }
-
-
-
-
 /* footer
 ----------------------------------------------------*/
-
 footer {
   position: fixed;
   width: 100%;
+  background: #432;
   background: #7acbe1;
   text-align: center;
   bottom:0px;
   padding: 15px 0;
 }
-
 footer p {
   color: #fff;
   font-size: 0.875rem;
   text-align: center;
 }
-
-
 @media (max-width: 600px) {
   .page-title {
     font-size: 2.0rem;
   }
-
-
   /* HOME */
   .home-content {
     margin-top: 0%;
     margin-bottom: 16%;
     text-transform: uppercase;
   }
-
 .main-page {
   width: auto;
 }
-
-
 #playlist{
   list-style: none;
   width: 50%;
