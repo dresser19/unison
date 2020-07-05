@@ -72,7 +72,7 @@ img {
 */
 #playlist{
   list-style: none;
-  width: 23%;
+  width: 25%;
   text-align: left;
   margin: 0 auto;
   position: relative;
@@ -90,6 +90,38 @@ img {
 #playlist .current-song a{
   color: #0bd;
 }
+
+
+#btn_group button {
+    border: 1px solid skyblue;
+    background-color: rgba(0,0,0,0);
+    color: skyblue;
+    padding: 5px; }
+
+#btn_group button:hover {
+ color: white;
+ background-color: skyblue;
+}
+
+#test_btn1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right:-4px;
+  }
+#test_btn2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left:-3px;
+  }
+
+.lyricsBox {
+  display:none;
+}
+.lyricsBox  pre {
+  display: none;
+}
+
+.
 /* footer
 ----------------------------------------------------*/
 footer {
@@ -121,7 +153,7 @@ footer p {
 }
 #playlist{
   list-style: none;
-  width: 52%;
+  width: 56%;
   text-align: left;
   margin-left:  0 auto;
   position: relative;
