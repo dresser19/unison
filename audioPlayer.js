@@ -21,3 +21,9 @@ function audioPlayer(){
           $("#audioPlayer")[0].play();
       });
   }
+
+  function displayLyrics() {
+      $('.lyricsBox > pre').hide();
+      $(".lyricsBox > pre[data-file='"+ $("#audioPlayer").attr("src").substr(-7) +"']").show();
+      $('.lyricsBox').show();
+  }
