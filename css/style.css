@@ -177,6 +177,11 @@ footer p {
   transform: translate(-50);
  }
 
+    #btn_group {
+  margin-bottom: 10px;
+ 
+ }
+    
  .lyricsBox {
    display:none;
    width: 80%;
