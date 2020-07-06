@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /* 공통 부분
 ------------------------------- */
 html {
@@ -17,6 +15,8 @@ a {
 img {
     max-width: 100%;
 }
+
+
 /* HEADER
 ----------------------------------------*/
 .logo {
@@ -39,23 +39,19 @@ img {
   margin-top: 0%;
   margin-bottom: 10%;
 }
-
 .home-content p {
   font-size: 1.3rem;
-  margin: 0px 0 42px;
+  margin: 0px 0 20px;
   text-align: center;
 }
-
 .page-title {
   font-size: 2rem;
   text-align: center;
 }
-
 .main-page {
   width: 600px;
   margin-right: 0px;
 }
-
 .main-title {
   margin-left: 130px;
   margin-top: 50px;
@@ -76,15 +72,17 @@ img {
   min-height: 100vh;
 }
 */
+#audioPlayer {
+
+}
 #playlist{
   list-style: none;
   width: 25%;
   text-align: left;
   margin: 0 auto;
   position: relative;
-  transform: translate(-25);
+  transform: translate(-20);
 }
-
 #playlist li a{
   color: black;
   text-decoration: none;
@@ -103,12 +101,12 @@ img {
     border: 1px solid skyblue;
     background-color: rgba(0,0,0,0);
     color: skyblue;
-    padding: 5px; }
+    padding: 3px;
+  }
 
 #btn_group button:hover {
  color: white;
  background-color: skyblue;
-
 }
 
 #test_btn1 {
@@ -119,22 +117,16 @@ img {
 #test_btn2 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left:-3px;
+  margin-left:-4px;
   }
 
 .lyricsBox {
   display:none;
-  width: 30%;
-
-  margin: 0 auto;
-  padding-top: 30px;
-  position: relative;
-  transform: translate(-25);
-
 }
-.lyricsBox < pre {
+.lyricsBox  pre {
   display: none;
 }
+
 
 /* footer
 ----------------------------------------------------*/
@@ -152,9 +144,6 @@ footer p {
   font-size: 0.875rem;
   text-align: center;
 }
-
-
-
 @media (max-width: 600px) {
   .page-title {
     font-size: 1.3rem;
@@ -170,42 +159,18 @@ footer p {
 }
 #playlist{
   list-style: none;
-  width: 60%;
+  width: 56%;
   text-align: left;
   margin-left:  0 auto;
   position: relative;
   transform: translate(-50);
  }
 
-    #btn_group {
-  margin-bottom: 10px;
- 
- }
-    
  .lyricsBox {
    display:none;
-   width: 80%;
-
-   padding-top: 30px;
-   margin: 0 auto;
-   position: relative;
-   transform: translate(-25);
-
  }
-
- footer {
-   position: fixed;
-   width: 100%;
-   background: #432;
-   background: #7acbe1;
-   text-align: center;
-   bottom:0px;
-   padding: 15px 0;
- }
- footer p {
-   color: #fff;
-   font-size: 0.875rem;
-   text-align: center;
+ .lyricsBox  pre {
+   display: none;
  }
 
 }
