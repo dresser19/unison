@@ -5,17 +5,14 @@
     <title>UNISON DAY</title>
     <meta name="description" content="유니즌데이밴드 2집">
     <meta property="og:title" content="UNISON DAY 2nd Album" />
-    <meta name="twitter:image:src" content="images/main4-background.jpg" />
-    <meta property="og:image:type" content="image/jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="1280">
-    <meta property="og:description" 
+    <meta property="og:image" content="images/main4-background.jpg" />
+    <meta property="og:description"
       content="코로나 극복을 위한 유니즌데이밴드의 음악선물입니다. 성도님들 이 음악듣고 힘내시고 건강하세요❤" />
     <meta property="og:type" content="Digital Album" />
     <meta property="og:url" content="https://dresser19.github.io/unison/" />
     <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
   </head>
@@ -31,6 +28,7 @@
        </ul>
      </nav>
    </header>
+   아이콘 제작자 <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a>
 -->
    <div id="home" class="home-content wrapper">
       <a href="index.html"><img class="main-page" img src="images/main4-background.jpg" alt="유니즌데이 2집 선물"></a>
@@ -39,10 +37,13 @@
         <audio src="" controls autoplay id="audioPlayer">
             Sorry, your browser doesn't support html5!
         </audio>
-
+        <br>
+        <div id="btn_group">
+          <button id="test_btn1" img src="images/icon.png">순서보기</button>
+        </div>
         <ul id="playlist">
           <br>
-          <li class="current-song"><a href="101.mp3">1. 너와 나</a></li>
+          <li id="div1" class="current-song"><a href="101.mp3">1. 너와 나</a></li>
           <li><a href="102.mp3">2. 기도송</a></li>
           <li><a href="103.mp3">3. 힘내</a></li>
           <li><a href="104.mp3">4. 하늘과 땅과 그대</a></li>
@@ -63,12 +64,12 @@
         <br>
 
         <div id="btn_group">
-          <button id="test_btn1" onclick="displayLyrics(true);">가사보기</button>
+          <button id="test_btn2" onclick="displayLyrics(true);">가사보기</button>
 
 
         <br>
 
-        <div id="div1" class="lyricsBox">
+        <div id="div2" class="lyricsBox">
   <pre data-file="101.mp3">
 1.너와나
 
@@ -736,11 +737,30 @@
 
                 //animate()메서드를 이용해서 선택한 태그의 스크롤 위치를 지정해서 0.4초 동안 부드럽게 해당 위치로 이동함
 
+          $('html').animate({scrollTop : offset.top}, 500);
+
+        });
+
+        });
+
+
+        </script>
+        <script>
+
+        $(document).ready(function(){
+
+        $('#test_btn2').click(function(){
+
+        var offset = $('#div2').offset(); //선택한 태그의 위치를 반환
+
+                //animate()메서드를 이용해서 선택한 태그의 스크롤 위치를 지정해서 0.4초 동안 부드럽게 해당 위치로 이동함
+
           $('html').animate({scrollTop : offset.top}, 400);
 
         });
 
         });
+
 
         </script>
   </div>
