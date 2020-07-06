@@ -125,7 +125,7 @@ img {
 .lyricsBox {
   display:none;
   width: 30%;
-  text-align: left;
+
   margin: 0 auto;
   padding-top: 30px;
   position: relative;
@@ -170,7 +170,7 @@ footer p {
 }
 #playlist{
   list-style: none;
-  width: 50%;
+  width: 60%;
   text-align: left;
   margin-left:  0 auto;
   position: relative;
@@ -179,8 +179,8 @@ footer p {
 
  .lyricsBox {
    display:none;
-   width: 60%;
-   text-align: left;
+   width: 80%;
+
    padding-top: 30px;
    margin: 0 auto;
    position: relative;
