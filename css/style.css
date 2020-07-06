@@ -124,6 +124,7 @@ img {
 
 .lyricsBox {
   display:none;
+  margin-top: 20px;
 }
 .lyricsBox  pre {
   display: none;
