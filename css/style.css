@@ -82,6 +82,7 @@ img {
   margin: 0 auto;
   margin-bottom: -10px;
   position: relative;
+  white-space : nowrap;
   transform: translate(-20);
 }
 #playlist li a{
