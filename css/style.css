@@ -155,14 +155,14 @@ footer p {
   .home-content {
     margin-top: 0%;
     margin-bottom: 16%;
-    text-transform: uppercase;
+    text-transform: lowercase;
   }
 .main-page {
   width: auto;
 }
 #playlist{
   list-style: none;
-  width: 56%;
+  width: 60%;
   text-align: left;
   margin-left:  0 auto;
   margin-bottom: -10px;
