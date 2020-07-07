@@ -98,7 +98,7 @@ img {
   color: #0bd;
 }
 
-
+/* --
 #btn_group button {
     border: 1px solid skyblue;
     background-color: rgba(0,0,0,0);
@@ -120,6 +120,26 @@ img {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left:-4px;
+  margin-bottom: 30px;
+  }
+---------------------*/
+#btn_group button {
+   
+    
+    color: skyblue;
+   
+  }
+
+#btn_group button:hover {
+ color: black;
+ 
+}
+
+#test_btn1 {
+ 
+  }
+#test_btn2 {
+ 
   margin-bottom: 30px;
   }
 
