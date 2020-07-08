@@ -47,6 +47,7 @@ img {
 .page-title {
   font-size: 2rem;
   text-align: center;
+  margin-bottom: 20px;
 }
 .main-page {
   width: 600px;
@@ -73,7 +74,8 @@ img {
 }
 */
 #audioPlayer {
-
+ margin-top: 10px;
+ margin-bottom: 20px;
 }
 #playlist{
   list-style: none;
