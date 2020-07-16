@@ -54,5 +54,9 @@ function audioPlayer(){
         $(".lyricsBox > pre[data-file='"+ $("#audioPlayer").attr("src").substr(-7) +"']").show();
         if(clicked) {
             $('.lyricsBox').show();
+        } else {
+          $('.lyricsBox').hide();
         }
+
+
       }
