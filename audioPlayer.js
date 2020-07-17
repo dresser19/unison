@@ -54,9 +54,14 @@ function audioPlayer(){
         $(".lyricsBox > pre[data-file='"+ $("#audioPlayer").attr("src").substr(-7) +"']").show();
         if(clicked) {
             $('.lyricsBox').show();
-        } else {
-          $('.lyricsBox').hide();
         }
-
-
       }
+
+
+      displayLyrics2 = function(clicked) {
+          $('.lyricsBox > pre').hide();
+          $(".lyricsBox > pre[data-file='"+ $("#audioPlayer").attr("src").substr(-7) +"']").show();
+          if(clicked) {
+              $('.lyricsBox').hide();
+          }
+        }

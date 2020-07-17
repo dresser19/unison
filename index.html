@@ -48,7 +48,22 @@
         <br>
         <div id="btn_group">
           <button id="test_btn1" class="mic">노래목록</button>
+          <button id="test_btn2" onclick="displayLyrics(true);">가사보기</button>
+          <!--<input id="button" type="button" value="가사보기" onclick="
+          var target = document.querySelector('#button');
+             if(this.value ==='가사보기'){
+               target.value ='가사접기';
+               displayLyrics(true)();
+
+             }
+             else {
+               target.value ='가사보기';
+               displayLyric2(true)();
+             }
+             ">-->
+
         </div>
+        <div>
         <ul id="playlist">
           <br>
           <li id="div1" class="current-song"><a href="101.mp3">1. 너와 나</a></li>
@@ -71,18 +86,8 @@
         </ul>
         <br>
 
-        <!-- <button id="test_btn2" onclick="displayLyrics(true);">가사보기</button> -->
-       <input id="button" type="button" value="가사보기" onclick="
-          if(document.querySelector('#button').value ==='가사보기'){
-            document.querySelector('#button').value ='가사접기';
-            displayLyrics(true)();
-          }
-          else {
-            document.querySelector('#button').value ='가사보기';
-            displayLyrics(false)();
-          }
-          ">
 
+        </div>
         <br>
 
         <div id="div2" class="lyricsBox">
@@ -644,6 +649,11 @@
 *반복
   </pre>
 
+  <div id="btn_group">
+  <button id="test_btn2" onclick="displayLyrics2(true);">가사접기</button>
+
+   </div>
+
   </div>
 </div>
         <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
@@ -676,7 +686,7 @@
 
         $(document).ready(function(){
 
-        $('#button').click(function(){
+        $('#test_btn2').click(function(){
 
         var offset = $('#div2').offset(); //선택한 태그의 위치를 반환
 
